@@ -1,4 +1,6 @@
-package model;
+package helper;
+
+import model.Product;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -12,8 +14,6 @@ public class Inventory {
     public void addProduct(Product product, int quantity) {
         products.add(product);
         stock.put(product.getName(), quantity);
-
-        // Agregar precio directamente a la lista
         prices.add(product.getPrice());
     }
 

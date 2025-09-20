@@ -1,5 +1,7 @@
 package model;
 
+import javax.swing.*;
+
 public class Appliance extends Product{
 
     public Appliance(double price, String name) {
@@ -7,7 +9,9 @@ public class Appliance extends Product{
     }
 
     @Override
-    void getDescription() {
-
+    public String getDescription() {
+        return "Appliance: " + getName() + ". Price: " + getPrice();
     }
+
+
 }

@@ -26,5 +26,5 @@ public abstract class Product {
         this.price = price;
     }
 
-    abstract void getDescription();
+    public abstract String getDescription();
 }
