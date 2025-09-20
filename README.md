@@ -70,7 +70,7 @@ src/
 
 1. **Clonar/Descargar el proyecto**
    ```bash
-   git clone [URL_DEL_REPOSITORIO]
+   git clone https://github.com/osvaldocs/entrenamientoSem2Java
    cd entrenamientoSem2Java
    ```
 
